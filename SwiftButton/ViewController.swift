@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//変数を宣言する箇所
+    var count = 5
+    var moji = "あいうえお"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        count = 10
+        print(count)
     }
-
-
+    
+@IBAction func tapButton(_ sender: Any) {
+    
+    }
 }
 
